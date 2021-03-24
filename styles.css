@@ -1,0 +1,117 @@
+@import url('https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@300;700&display=swap');
+
+body{
+  margin: 0;
+  position: fixed;
+  width: 100vw;
+  height: 100vh;
+  background-color: hsl(185, 75%, 39%);
+  font-family: 'Kumbh Sans', sans-serif;
+  font-size: 18px;
+  justify-content: center;
+}
+
+.bg__top{
+  position: absolute;
+  bottom: 43%;
+  right: 53%;
+  z-index: -1;
+}
+
+.bg__bottom{
+  position: absolute;
+  left: 50%;
+  top: 48%;
+  z-index: -1;
+}
+
+.card {
+  display: grid;
+  grid-template-rows: auto;
+  text-align: center;
+  background-color: #fff;
+  border-radius: 10px;
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+
+.card__upper-bg {
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+}
+
+.card__image {
+  border-radius: 100%;
+  position: relative;
+  border: 5px solid white;
+  margin: -15% auto;
+}
+
+.card__details{
+  margin-top: 15%;
+}
+
+.card__text {
+  color: hsl(229, 23%, 23%);
+  font-weight: normal;
+}
+
+.card__text--bold{
+  color: hsl(229, 23%, 23%);
+  font-weight: 700;
+  font-size: 18px;
+}
+
+.card__text--header {
+  margin-bottom: 0.75rem;
+}
+
+.card__text--grey {
+  color: hsl(227, 10%, 46%);
+}
+
+.card__text--small{
+  font-weight: 300;
+  font-size: 0.8rem;
+  margin: 0;
+}
+
+.card__numbers {
+  margin: 0;
+}
+
+.card__social {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  border-top: 1px solid #e7e7e7;
+  padding: 7% 4%;
+  line-height: 1.5;
+  margin-top: 1rem;
+}
+
+#age, #name{
+  display: inline-block;
+}
+
+#name {
+  margin-right: 0.5rem;
+  margin-bottom: 0;
+}
+
+#age{
+  margin: 0;
+}
+
+.attribution { 
+  font-size: 11px; 
+  text-align: center;
+  position:absolute;
+  bottom:0;
+  width:100%;
+  height:60px;
+}
+
+.attribution a { color: hsl(228, 45%, 44%); }
